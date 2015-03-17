@@ -1,0 +1,287 @@
+/*Universal Selectors*/
+
+body{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1000px;
+    font-family: georgia;
+    text-align: justify;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+/*****************************
+
+Header
+
+*****************************/
+
+h1{
+    font-size: 1.4em;
+    border-top-right-radius: 25pt;
+    width: 70%;
+    padding-left: 5%;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 1.4em;
+    border-bottom-right-radius: 25px;
+    width: 70%;
+    padding-left: 5%;
+    margin-top: 0px;
+    
+}
+
+/*******************************
+
+Top Navigation
+
+******************************/
+
+nav{
+    float: left;
+    width: 100%;
+}
+
+
+.toplinks{
+    font-size: .75em;
+    float: right;
+    padding: 2% 1%;
+    margin-left: 2%;
+    min-width: 50%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+/*****************************
+
+Content
+
+***************************/
+
+h3{
+    font-size: 1.2em;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 2% 0% 2% 5%;
+    margin: 5% 0;
+}
+
+p{
+    font-size: 1em;
+}
+
+a{
+    color: rgb(3,22,52);
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+    margin: 2% 0 1%;
+}
+
+.left{
+    width: 95%;
+    float: left;
+    padding: 0 0 2.5% 2.5%;
+}
+
+.right{
+    width: 95%;
+    float: right;
+    padding: 0 2.5% 2.5%;
+}
+
+.split{
+    clear: both;
+    padding: 0 2.5% 2.5%;
+}
+
+.split li{
+    font-weight: bold;
+}
+
+.full{
+    float: left;
+    width: 95%;
+    padding: 0 2.5% 2.5%;
+}
+
+.fullleft{
+    margin: 2.5% 0;
+    clear: both;
+}
+
+.fullright{
+    float: right;
+    clear: both;
+    width: 95%;
+    margin: 2.5% 0;
+    text-align: right;
+    border-radius: 25px 0 0 25px;
+    padding: 2% 5% 2% 0;
+}
+
+.imgandp{
+    clear: both;
+}
+
+
+.picleft{
+    width: 35%;
+    float: left;
+    margin: 2.5%;
+}
+
+.picright{
+    width: 35%;
+    float: right;
+    margin: 2.5%;
+}
+
+.comfort {
+    font-weight: normal;
+}
+
+.portfolio{
+    list-style-type: none;
+    padding: 0;
+}
+
+.portfolio li{
+    width: 100%;
+}
+
+.portfolio li h3{
+    text-align: left;
+    padding: 1% 0 1% 2.5%;
+}
+
+.portfolio li img{
+    border-radius: 20%;
+}
+
+/***************************
+
+Footer
+
+*************************/
+
+footer{
+    float: left;
+    width: 100%;
+}
+
+
+footer ul{
+    padding: 3% 0 2%;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+    font-size: .9em;
+    padding: 0 2%;
+    margin: 0;
+}
+
+.signature{
+    font-size: .6em;
+    float: right;
+    clear: both;
+    border-radius: 25px 0px 0px 25px;
+    margin: 3% 0 5%;
+    padding: 5px;
+    padding-right:10%;
+}
+
+
+/****************************
+
+Colors
+
+***************************/
+
+body{
+    background-color: rgb(205,179,128);
+}
+
+a:hover{
+    color: rgb(3,101,100);
+}
+
+.selected{
+    color: rgb(3,101,100);
+    
+}
+
+h1{
+    color: rgb(232,221,203);
+    background-color: rgb(3,22,52);
+}
+
+h2{
+    color: rgb(3,22,52);
+    background-color: rgb(232,221,203);
+}
+
+nav{
+    background-color: rgb(3,22,52);
+}
+
+.toplinks{
+    background-color: rgba(232,221,203,.9);
+
+}
+
+h3{
+    background-color: rgb(232,221,203);
+    color: rgb(3,22,52);
+}
+
+.vc{
+    color: Blue;
+}
+
+.c{
+    color: Green;
+}
+
+.sc{
+    color: Yellow;
+}
+
+.lightfont{
+    color: rgb(232,221,203);
+}
+
+footer{
+    background-color: rgb(3,22,52);
+}
+
+.signature{
+    color: rgb(3,22,52);
+    background-color: rgb(232,221,203);
+}
+
+/*Color Palette
+ Darker
+ Abisso rgb(3,22,52) 70%
+ Acqua Profonda rgb(3,54,73)15%
+ Acqua rgb(3,101,100)5%
+ Terra rgb(205,179,128)5%
+ Terra Terra rgb(232,221,203)5%
+ Lighter
+*/
