@@ -1,6 +1,11 @@
+
 @media (min-width: 360px){
     .toplinks{
         font-size: .9em;
+    }
+    
+    h3{
+        font-size: 1.1em;
     }
 }
 
@@ -15,7 +20,7 @@
         font-size: 1.4em;
     }
     h3{
-        font-size: 1.1em;
+        font-size: .9em;
     }
     
     p{
@@ -76,7 +81,7 @@
     }
 }
 
-@media (min-width: 760px){
+@media (min-width: 840px){
     h3{
         font-size: 1.4em;
     }
