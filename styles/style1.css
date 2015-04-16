@@ -72,7 +72,7 @@ h3{
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     padding: 2% 0% 2% 5%;
-    margin: 5% 0;
+    margin: 2.5% 0;
 }
 
 p{
@@ -109,6 +109,14 @@ img{
 
 .split li{
     font-weight: bold;
+}
+
+.homeAlternating{
+    padding: 0 2.5%;
+}
+
+.homeAlternating p{
+    clear: both;
 }
 
 .full{
